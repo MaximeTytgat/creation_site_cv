@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: helvetica, sans-serif;
+}
+
+/* HEADER */
+
+nav {
+    height: 60px;
+    text-align: right;
+}
+nav a {
+    color: white;
+    font-family: montserrat, sans-serif;
+}
+nav img {
+    width: 40px;
+}
+nav ul {
+    padding: 21px;
+}
+nav ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+    border-right: solid white 1px;
+}
+nav ul li:last-child {
+    border-right: none;
+}
+
+header {
+    background-image: url(../img/fond-header.jpg);
+    background-size: 105%;
+    background-position-y: -270px;
+}
+
+header h1 {
+    padding-top: 150px;
+    font-family: raleway, sans-serif;
+    font-weight: 800;
+    color: white;
+}
+header h2 {
+    padding-top: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.network {
+    width: 160px;
+    float: left;
+    padding: 8px 0 8px 0;
+    text-align: center;
+}
+.links {
+    height: 100%;
+}
+
+.name {
+    text-align: center;
+    height: 500px;
+}
